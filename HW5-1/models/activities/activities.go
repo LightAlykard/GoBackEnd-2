@@ -6,8 +6,8 @@ import (
 
 	_ "github.com/lib/pq"
 
-	"github.com/LightAlykard/GoBackEnd-2/Hw5-1-0.1.0/HW5-1/manager"
-	"github.com/LightAlykard/GoBackEnd-2/Hw5-1-0.1.0/HW5-1/pool"
+	"github.com/LightAlykard/GoLibsTest/HW5/manager"
+	"github.com/LightAlykard/GoLibsTest/HW5/pool"
 )
 
 type Activity struct {
