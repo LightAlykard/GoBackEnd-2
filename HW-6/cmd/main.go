@@ -10,15 +10,11 @@ import (
 )
 
 func main() {
-	host := os.Getenv("HOST")
-	port := os.Getenv("PORT")
-	redisHost := os.Getenv("REDISHOST")
-	redisPort := os.Getenv("REDISPORT")
-	ttl, err := strconv.Atoi(os.Getenv("TTL"))
-	if err != nil {
-		log.Errorf("can't parse ttl %s", err)
-		ttl = 1
-	}
+	host := "localhost"
+	port := "8080"
+	redisHost := "localhost"
+	redisPort := "6379"
+	ttl := 1
 	server := api.New()
 	server.Serve(host, port, redisHost, redisPort, time.Duration(ttl)*time.Hour)
 }
