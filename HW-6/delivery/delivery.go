@@ -8,11 +8,11 @@ import (
 
 	"github.com/labstack/echo/v4"
 	"github.com/labstack/gommon/log"
-	//confStore "confirmation/storage"
-	//conCase "confirmation/usecase"
-	//"models"
-	//ustore "user/storage"
-	//usercase "user/usecase"
+	//confStore "github.com/LightAlykard/GoBackEnd-2/HW-6/confirmation/storage"
+	//conCase "github.com/LightAlykard/GoBackEnd-2/HW-6/confirmation/usecase"
+	//"github.com/LightAlykard/GoBackEnd-2/HW-6/models"
+	//ustore "github.com/LightAlykard/GoBackEnd-2/HW-6/user/storage"
+	//usercase "github.com/LightAlykard/GoBackEnd-2/HW-6/user/usecase"
 )
 
 type Deliver struct {

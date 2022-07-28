@@ -4,9 +4,9 @@ import (
 	"context"
 	"fmt"
 
+	"github.com/LightAlykard/GoBackEnd-2/HW-6/models"
+	"github.com/LightAlykard/GoBackEnd-2/HW-6/user/storage"
 	"github.com/labstack/gommon/log"
-	//"models"
-	//"user/storage"
 )
 
 type UserCase struct {

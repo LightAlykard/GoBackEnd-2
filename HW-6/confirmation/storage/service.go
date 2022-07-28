@@ -6,9 +6,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/LightAlykard/GoBackEnd-2/HW6/models"
+	"github.com/LightAlykard/GoBackEnd-2/HW-6/models"
 	"github.com/go-redis/redis/v8"
-	//"models"
 )
 
 type confStore struct {

@@ -6,8 +6,9 @@ import (
 	"math/rand"
 	"strconv"
 	"time"
-	//"confirmation/storage"
-	//"models"
+
+	"github.com/LightAlykard/GoBackEnd-2/HW-6/confirmation/storage"
+	"github.com/LightAlykard/GoBackEnd-2/HW-6/models"
 )
 
 type confCase struct {

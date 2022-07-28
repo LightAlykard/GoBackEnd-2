@@ -3,8 +3,7 @@ package storage
 import (
 	"context"
 
-	"github.com/LightAlykard/GoBackEnd-2/HW6/models"
-	//"models"
+	"github.com/LightAlykard/GoBackEnd-2/HW-6/models"
 )
 
 type ConfirmationStorage interface {
