@@ -1,0 +1,12 @@
+version: "2"
+
+services:
+  nats:
+    image: 'bitnami/nats:latest'
+    ports:
+      - 4222:4222
+      - 6222:6222
+      - 8222:8222    
+    environment:
+      nats_server_url: "example.mysubject"
+    
